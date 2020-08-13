@@ -1,3 +1,3 @@
 Introduction to C#
 
-First project at AIE
+First project at AIE Seattle
