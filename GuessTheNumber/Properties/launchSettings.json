@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GuessTheNumber": {
+      "commandName": "Project",
+      "commandLineArgs": "25 100"
+    }
+  }
+}

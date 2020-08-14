@@ -1,0 +1,3 @@
+﻿There are a number of improvements that can be made to the Dumb Guess the number example.
+
+5. There's got to be a better way of making notes about what I want to do and change in my code, reluctant to add comments everywhere in my code coz I might miss something, if only there was some kind of task list or something.
