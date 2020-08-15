@@ -85,6 +85,7 @@ namespace GuessTheNumber
                     }
                 }
                 Console.WriteLine("Go again? y/n");
+                //loop untill a valid answer is given
                 while (true) {
                     string response = Console.ReadLine();
                     if (response.ToLower().StartsWith("y"))
@@ -94,6 +95,7 @@ namespace GuessTheNumber
                     }
                     else if (response.ToLower().StartsWith("n"))
                     {
+                        //stops the game
                         keepGoing = false;
                         break;
                     }
