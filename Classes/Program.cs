@@ -19,6 +19,12 @@ namespace Classes
             theTeam.teamLead = new Employee("George","Hill",8);
 
             Console.WriteLine(theTeam.AverageYearsOfExperience());
+            List<int> aadsf = new List<int>();
+            aadsf.Add(1);
+            aadsf.Add(1);
+            aadsf.Add(1);
+            aadsf.Add(1);
+
 
             /*
             Circle a = new Circle(new Vector2(1, 0), 1);
