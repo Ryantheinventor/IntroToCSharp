@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessTheNumber", "GuessTheN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{7BE72286-C914-4992-BA28-75FEB08838D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{AFC129ED-C492-4303-84DC-EA95EE5324BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7BE72286-C914-4992-BA28-75FEB08838D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BE72286-C914-4992-BA28-75FEB08838D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BE72286-C914-4992-BA28-75FEB08838D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC129ED-C492-4303-84DC-EA95EE5324BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC129ED-C492-4303-84DC-EA95EE5324BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC129ED-C492-4303-84DC-EA95EE5324BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC129ED-C492-4303-84DC-EA95EE5324BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
