@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack", "Blackjack\Blackjack.csproj", "{CC95B04B-88F7-4DCD-A9D2-6D36DC3D7E17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Type Conversion", "Type Conversion\Type Conversion.csproj", "{F1F05553-0FD3-4797-B5DF-6F8F1315F804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{CC95B04B-88F7-4DCD-A9D2-6D36DC3D7E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC95B04B-88F7-4DCD-A9D2-6D36DC3D7E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC95B04B-88F7-4DCD-A9D2-6D36DC3D7E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F05553-0FD3-4797-B5DF-6F8F1315F804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F05553-0FD3-4797-B5DF-6F8F1315F804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F05553-0FD3-4797-B5DF-6F8F1315F804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F05553-0FD3-4797-B5DF-6F8F1315F804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
