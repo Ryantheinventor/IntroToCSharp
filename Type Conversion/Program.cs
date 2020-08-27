@@ -8,8 +8,14 @@ namespace Type_Conversion
 {
     class Program
     {
+
         static void Main(string[] args)
         {
+            for (int i = 1; i < int.MaxValue; i++)
+            {
+                Console.WriteLine(new BinaryNumeral(i));
+            }
+
             RomanNumeral roman;
             roman = 10;
             BinaryNumeral binary;

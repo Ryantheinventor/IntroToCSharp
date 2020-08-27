@@ -33,7 +33,53 @@ namespace Type_Conversion
         // a string:
         static public implicit operator string(BinaryNumeral binary)
         {
-            return binary.value.ToString();
+            string output = "";
+            int workingValue = (int)binary;
+            if (workingValue > 0)
+            {
+                int zeros = 0;
+                int value = 1;
+                while (value <= workingValue)
+                {
+                    value *= 2;
+                    zeros++;
+                }
+                value /= 2;
+                zeros--;
+                workingValue -= value;
+                output = "1";
+                for (int i = 0; i < zeros; i++)
+                {
+                    output += "0";
+                }
+                while (workingValue > 0)
+                {
+                    zeros = 0;
+                    value = 1;
+                    while (value <= workingValue)
+                    {
+                        value *= 2;
+                        zeros++;
+                    }
+                    value /= 2;
+                    zeros--;
+                    workingValue -= value;
+
+                    StringBuilder sb = new StringBuilder(output);
+                    sb[output.Length-zeros-1] = '1';
+                    output = sb.ToString();
+                }
+
+                return output;
+            }
+            else 
+            {
+                return "0";
+            }
+            
+            
         }
+
+
     }
 }
